@@ -1,0 +1,157 @@
+header {
+    margin: auto;
+    height: 60px;
+    width: 100%;
+    background-color: #F7D332;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+header p {
+    margin: auto 0;
+    padding-top: 10px;
+}
+
+body {
+    margin: auto;
+    background-color: #F9E797;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  margin: auto;
+}
+
+table th {
+    background-color:#F2F2F2 ;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100px;
+}
+
+table  td {
+    background-color: white;
+    width: 400px;
+}
+
+input, textarea {
+  width: 400px;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: #F7D332;
+    color: white;
+    /* position: absolute;←絶対位置 */
+    bottom: 0; /*下に固定*/
+    position:fixed;
+  }
+
+  
+  .mgmt {
+    padding-top: 18px;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+  }
+
+  a {
+    text-decoration: none; 
+    color: white;
+    padding: 20px;
+  }
+
+  form {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center; /* ボタンを中央に配置するためのスタイル */
+    
+  }
+
+  .register {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: #F7D332;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto; /* 追加 */
+    margin-left: auto; /* 左側の余白 */
+    margin-right: auto; /* 右側の余白 */
+    margin-top: 20px;
+    font-size: 18px;
+    
+  }
+
+  .formTable {
+    border: 2px solid black; /* 枠線の太さと色を指定 */
+    border-collapse: collapse; /* 枠線が重ならないようにする */
+}
+
+  #send {
+    text-align: center;
+    width: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  button:hover {
+  opacity:1;
+  -webkit-opacity: .5;
+  -moz-opacity: .5;
+}
+
+.recipe_con {
+  margin: auto; /* 左右の余白を自動で調整して中央に配置 */
+  text-align: center; /* 内部の要素を中央揃えにする */
+}
+
+fieldset {
+  width: 1000px;
+  margin: auto;
+}
+
+.card img {
+  width: 100%; /* 画像の幅を親要素の幅に合わせる */
+  height: auto; /* アスペクト比を維持して自動的に高さを調整 */
+}
+
+.card-container {
+  margin: auto;
+  width: 100%; /* 親要素の幅いっぱいにカードを配置 */
+  display: flex; /* Flexboxを使用して要素を横並びに配置 */
+  flex-wrap: wrap; /* 要素が行を超える場合に折り返す */
+  justify-content: space-between; /* 要素を均等に配置 */
+}
+
+.card {
+  width: calc(33.33% - 20px); /* 幅を計算して1行に3つのカードを配置、余白も考慮 */
+  margin-bottom: 20px; /* カード間の余白 */
+  box-sizing: border-box; /* 幅の計算に余白とボーダーを含める */
+  padding: 10px; /* カードの内側の余白 */
+  border: 2px solid #aaa;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+input {
+  height: 40px;
+}
